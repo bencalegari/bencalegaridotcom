@@ -1,0 +1,9 @@
+source "https://rubygems.org"
+
+gem "middleman", "~> 3.1.5"
+gem "middleman-blog", "~> 3.2.0"
+gem "html2haml"
+
+
+# For feed.xml.builder
+gem "builder", "~> 3.0.0"
