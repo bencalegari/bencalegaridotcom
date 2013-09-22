@@ -2,7 +2,11 @@
 # Blog settings
 ###
 
+
+
 # Time.zone = "UTC"
+
+activate :livereload
 
 activate :blog do |blog|
   blog.prefix = "blog"

@@ -9,10 +9,10 @@ gem "html2haml"
 
 gem "compass"
 gem "haml"
-gem "coffee-filter"
+
 gem "susy", "~>1.0.5"
 gem "oily_png"
-gem "foundation-zurb"
+gem "zurb-foundation"
 
 # For feed.xml.builder
 gem "builder", "~> 3.0.0"
