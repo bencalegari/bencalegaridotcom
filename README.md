@@ -6,11 +6,3 @@ I'm using the site as an excuse to learn and practice front-end stuff like [HAML
 Also using [Middleman](middlemanapp.com) in development.
 
 Any and all feedback is appreciated.
-
-
-
-=======
-bencalegaridotcom
-=================
-
-Personal website, built with Middleman and Foundation.
