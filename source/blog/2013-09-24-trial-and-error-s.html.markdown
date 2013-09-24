@@ -21,7 +21,8 @@ Now I had to actually start making the thing. The first sample page was in Markd
 
 I wrote my first heading and started my server. All I had was this.
 
-`bencalegari =========` 
+`bencalegari`<br>
+`===========`  
 
 I was confused. The logic in my brain did not match at all with the output on my screen. There was no way in my mind it wouldn't work. But I knew the problem was me. 
 
