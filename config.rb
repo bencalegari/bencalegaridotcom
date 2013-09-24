@@ -55,7 +55,7 @@ page "/feed.xml", :layout => false
 # 
 # With alternative layout
 page "index.html", :layout => :mainlayout
-page "blog.html", :layout => :bloglayout
+page "blog.html", :layout => :mainlayout
 # 
 # A path which all have the same layout
 # with_layout :admin do
