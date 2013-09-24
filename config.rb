@@ -7,13 +7,14 @@
 # Time.zone = "UTC"
 
 activate :livereload
+activate :directory_indexes
 
 activate :blog do |blog|
   blog.prefix = "blog"
-  # blog.permalink = ":year/:month/:day/:title.html"
-  # blog.sources = ":year-:month-:day-:title.html"
+  blog.permalink = ":year/:month/:day/:title.html"
+  blog.sources = ":year-:month-:day-:title.html"
   # blog.taglink = "tags/:tag.html"
-  # blog.layout = "layout"
+  blog.layout = "bloglayout"
   # blog.summary_separator = /(READMORE)/
   # blog.summary_length = 250
   # blog.year_link = ":year.html"
@@ -55,12 +56,12 @@ page "/feed.xml", :layout => false
 # 
 # With alternative layout
 page "index.html", :layout => :mainlayout
-page "blog.html", :layout => :mainlayout
+page "blog.html", :layout => :bloglayout
 # 
 # A path which all have the same layout
-# with_layout :admin do
-#   page "/admin/*"
-# end
+with_layout :bloglayout do
+  page "/blog/*"
+end
 
 # Proxy (fake) files
 # page "/this-page-has-no-template.html", :proxy => "/template-file.html" do
