@@ -13,6 +13,10 @@ h1 {
   color: white;
 }
 
+h1:hover {
+  color: gray;
+}
+
 .small-header {
   display: inline-block;
   text-align: center;
@@ -34,6 +38,10 @@ h1 {
 h2 {
   color: white;
   font-size: 2.5em;
+}
+
+a h2:hover {
+  color: gray;
 }
 
 h3 {
