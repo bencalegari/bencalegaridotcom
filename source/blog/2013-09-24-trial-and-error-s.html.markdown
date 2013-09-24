@@ -4,6 +4,8 @@ date: 2013-09-24 02:18 UTC
 tags:
 ---
 
+##### An exercise in frustration.
+
 Originally dated: Sept. 19th, 2013
 
 Ugh.
@@ -33,5 +35,3 @@ I had another problem with font-awesome which took up the entire rest of my time
 The biggest mistake of all was trying to go through the brick wall instead of simply going around it. I could have made content, developed a layout using only HTML and CSS, or simply started over. I got in way over my head and refused to admit it before it was too late. It was time I'll never get back. 
 
 I have learned something from all this. And if you are reading this blog on a finished site that I built myself without relying on five billion gems, plugins, templates, or addons, that should be all the proof you need. 
-
-PS. This is not the end of this fight. I will have a real, true to form blog and site soon.  

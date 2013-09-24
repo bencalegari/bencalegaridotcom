@@ -4,13 +4,27 @@
     %meta{charset: "utf-8"}/
     %meta{content: "IE=edge;chrome=1", "http-equiv" => "X-UA-Compatible"}/
     %meta{content: "width=device-width, initial-scale=1.0", name: "viewport"}/
-    %link{href: "../stylesheets/foundation.css", rel: "stylesheet"}/
+    %link{href: "/stylesheets/foundation.css", rel: "stylesheet"}/
     %link{href: "../stylesheets/blog_override.css", rel: "stylesheet"}/
     %link{href: "//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css", rel: "stylesheet"}/
     %script{src: "javascripts/vendor/custom.modernizr.js"}
   %body
     #main{role: "main"}
-      = yield
+      .row
+        .large-4.large-centered.columns
+          %h3 bencalegari.
+      .row
+        .large-3.small-3.columns
+          %a.icon-home.icon-3x{href: "/blog"}
+        .large-3.small-3.columns
+          %a.icon-github.icon-3x{href: "http://github.com/bencalegari"}
+        .large-3.small-3.columns  
+          %a.icon-twitter.icon-3x{href: "http://twitter.com/bencalegari"}
+        .large-3.small-3.columns  
+          %a.icon-linkedin.icon-3x{href: "http://linkedin.com/bencalegari"}
+      .row
+        .blog-rows.large-8.large-centered.columns
+          = yield
   %footer
     %script{src: "javascripts/app.js", type: "text/javascript"}
     :javascript
