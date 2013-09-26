@@ -20,7 +20,7 @@ I wrote my first heading and started my server. All I had was this.
 
 I was confused. It was supposed to be a header. The logic in my brain did not match at all with the output on my screen, but computers only do what they are told, so I searched on for a solution.
 
-Two hours and much googling later, I realized the obvious. It's a HAML file. It doesn't know what markdown is markdown without a :markdown filter. Of course. I had changed the syntax, restarted the server, refreshed the page, RTFMed and stack overflowed, but there is nothing that you can Google that tells you that you have no clue what's going on.
+Two hours and much googling later, I realized the obvious. It's a HAML file. It doesn't know what markdown is without a :markdown filter. Of course. I had changed the syntax, restarted the server, refreshed the page, RTFMed and stack overflowed, but there is nothing that you can Google that tells you that you have no clue what's going on.
 
 The site you see now is the 8th version I created. The biggest mistake I had made before was trying to go through the brick wall instead of simply going around it. I stripped unneeded complexity out, instead adding the simplest thing that got me further along. Every file is there because I wanted it there. 
 
